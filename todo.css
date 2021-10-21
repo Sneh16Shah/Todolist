@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+body {
+    background-image: url(plain.jpg);
+    background-size: cover;
+}
+
+.wrap {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rampart One', cursive;
+    margin-top: 29px;
+    font-size: larger;
+    text-align: center;
+    height: 680px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px rgb(33, 86, 110);
+    margin-left: 6%;
+    margin-right: 6%;
+    background: linear-gradient(rgb(11, 230, 182), rgb(23, 231, 238));
+    background: linear-gradient(rgb(67 254 213), rgb(37 94 96));
+    opacity: 70%;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+.wrap header {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.wrap input {
+    border: 2px solid rgb(12, 121, 115);
+    border-radius: 3px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Antic Slab', serif;
+    padding-left: 12px;
+    margin-top: 31px;
+    width: 450px;
+    height: 36px;
+    font-size: 20px;
+}
+
+.wrap button {
+    border: 2px solid rgb(12, 121, 115);
+    border-radius: 3px;
+    font-family: 'Roboto Slab', serif;
+    background-color: blueviolet;
+    opacity: 120%;
+    color: white;
+    height: 43px;
+    width: 45px;
+    font-size: 22px;
+}
+
+.wrap button.active:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.footer button.active:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.todoList li {
+    position: relative;
+    list-style: none;
+    height: 20px;
+    font-size: 0.3cm;
+    line-height: 20px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: default;
+    margin-right: 30px;
+    margin-top: -20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-family: 'Antic Slab', serif;
+    width: 500px;
+    margin-left: 127px;
+    margin-left: 400px;
+    padding: 5px;
+}
+
+.todoList li .icon {
+    position: absolute;
+    right: 5px;
+    background: #e74c3c;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.todoList li:hover .icon {
+    background-color: blue;
+    background-color: blueviolet;
+    cursor: pointer;
+    right: 20px;
+}
+
+.todoList li {
+    font-size: 20px;
+    font-family: 'Antic Slab', serif;
+    display: block;
+    width: 679px;
+    height: 26px;
+    margin-left: 22%;
+    padding: 4px;
+    width: 56%;
+    margin-left: 22%;
+}
+
+.wrap ul {
+    font-family: 'Roboto Slab', serif;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 23px;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    margin-top: 36px;
+    font-weight: 900;
+    text-decoration: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    margin-bottom: 50px;
+}
+
+.footer button {
+    padding: 3px;
+    margin-left: 20px;
+    font-family: 'Antic Slab', serif;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 400;
+    background: #8e49e8;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    width: auto;
+}
+
+.footer button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media screen and (min-width: 1008px) {
+    .todoList li {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 1007px) and (min-width: 641px) {
+    .todoList li {
+        width: 90%;
+        margin-left: 2%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .todoList li {
+        width: 90%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+}
